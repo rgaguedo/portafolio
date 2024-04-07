@@ -141,17 +141,15 @@
     <section class="experience" id="xp">
         <h2 class="experience__section__title">Experiencia Profesional</h2>
         <div class="experience__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets/secretcode_print.png">
+            <img class="experience__img" src="assets/encrypt_code.png" alt="">
             <div class="experience__info-container">
-                <h2 class="experience__title">Encriptador de texto</h2>
+                <h2 class="experience__title">Encriptado de texto</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                 <div class="experience__description">
-                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
                     <span class="experience__repo"><a
                             href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                            class="experiencia__botao--repo">Repositório</button></a></span>
-                    <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            class="experiencia__button--repo">Repositório</button></a></span>
+                    <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver demo</button></a></span>
                 </div>
             </div>
         </div>
@@ -162,11 +160,10 @@
                 <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                 <div class="experience__description">
-                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
                     <span class="experience__repo"><a
                             href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                            class="experiencia__botao--repo">Repositório</button></a></span>
-                    <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            class="experiencia__button--repo">Repositório</button></a></span>
+                    <span class="experience__demo"><a href=""><button class="experience__button--demo">Ver demo</button></a></span>
                 </div>
             </div>
         </div>
@@ -174,21 +171,27 @@
         <!-- Sección de Contacto -->
         <section class="form_contacto" id="contacto">
             <div class="form_contacto__contacto">
-                <div class="form_contacto--esquerda">
-                    <img class="form_contacto__img" src="assets/contact_image.png">
+                <div class="form_contacto--izquierda">
+                    <img class="form_contacto__img" src="assets/contact_image.png" alt="">
                 </div>
                 <div class="form_contacto__text">
                     <h2 class="form_contacto__title">Contacto</h2>
                     <h3 class="form_contacto__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="form_contacto__subtext">Complete el siguiente formulario y me pondré en contacto con
-                        usted lo antes posible. </h3>
+                    <h3 class="form_contacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="form_contacto__form" name="form">
-                        <input class="form_contacto__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="form_contacto__input" type="email" name="email" placeholder="E-mail">
-                        <input class="form_contacto__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="form_contacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                                  placeholder="Mensaje"></textarea>
-                        <button type="submit" class="form_contacto__botao">Enviar mensaje</button>
+                        <label>
+                            <input class="form_contacto__input" type="text" name="nombre" placeholder="Nombre">
+                        </label>
+                        <label>
+                            <input class="form_contacto__input" type="email" name="email" placeholder="E-mail">
+                        </label>
+                        <label>
+                            <input class="form_contacto__input" type="text" name="asunto" placeholder="Asunto">
+                        </label>
+                        <label for="mensaje">
+                        </label>
+                        <textarea class="form_contacto__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="form_contacto__button">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
@@ -196,7 +199,7 @@
 
         <!-- Sección de Footer -->
         <section class="footer">
-            <div class="footer__rodape">
+            <div class="footer__page">
                 <p>Desarrollado por Fulana de Tal</p>
                 <p>2022</p>
             </div>
@@ -204,6 +207,6 @@
     </section>
 </div>
 <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+<script src="validation.js"></script>
 </body>
 </html>
